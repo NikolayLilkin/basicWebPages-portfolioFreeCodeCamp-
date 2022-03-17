@@ -1,0 +1,189 @@
+html,body{
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px;
+    padding: 0;
+    color: black; 
+    font-size: 10pt; 
+    font-family: Poppins, sans-serif;
+    background-color: #E2E2E2;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    list-style: none;
+    box-sizing: inherit;
+}
+header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    background-color:rgb(190, 49, 68);
+}
+nav > ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+nav{
+    display: block;
+    margin-right: 40px;
+}
+nav > ul > li{
+    justify-content: center; 
+    display: inline-block;
+    list-style: none;
+}
+nav > ul > li > a{
+    margin:10px; 
+    display: block;
+    color: rgb(240, 240, 240);
+    font-size: 24px;
+    text-decoration: none;
+}
+nav ul > li:hover{
+    background-color: #45567d;
+}
+#Hello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%)
+}
+#Hello h1{
+    color: rgb(240, 240, 240);
+    display:block;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 48px;
+}
+#Hello p{
+    display:block;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size:24px;
+    font-weight: 200;
+    font-style: italic;
+    color: rgb(190, 49, 68);
+}
+#Work{
+    margin: 0 auto;
+    background-color: #45567d;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+}
+#Work h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color:rgb(240, 240, 240);
+    text-decoration: underline;
+    display: block;
+    font-size: 36px;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#Projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem; 
+    text-align: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+#Projects div{
+    display: block;
+    width:fit-content;
+    margin: 0 auto;
+    background-color:#303841;
+    text-align: center;
+}
+#Projects a{
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    color:rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+#Projects p{
+    margin-block-start: 0em;
+    margin-block-end: 0em; 
+}
+img{
+    object-fit: cover;
+    width:350px;
+    height:350px;
+}
+#Work a{
+    max-width: fit-content;
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    font-size: 24px;
+    text-decoration: none;
+    background-color:#303841;
+    color:rgb(240, 240, 240);
+}
+#Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    background-color: #303841;
+    color:rgb(240, 240, 240);
+}
+#Contact h2{
+    font-size: 36px;
+}
+#Contact p{
+    font-size: 24px;
+}
+#Social a{
+    color:rgb(240, 240, 240);
+    text-decoration: none;
+    font-size: 18px;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 300;
+    height:20vh;
+    justify-content: space-evenly;
+    text-align: center;
+    border-top: 4px solid rgb(190, 49, 68);
+    background-color:#303841;
+
+}
+footer > p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-size: 18px;
+    color:rgb(240, 240, 240);
+}
